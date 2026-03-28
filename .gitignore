@@ -4,6 +4,20 @@ dataset
 # visual studio code files
 *.vscode
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
 # Virtual environments
 .venv/
 venv/
