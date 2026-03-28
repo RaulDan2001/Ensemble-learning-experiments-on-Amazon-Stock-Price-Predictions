@@ -1,0 +1,40 @@
+# dataset folder
+dataset
+
+# visual studio code files
+*.vscode
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# IDE / editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and profiling
+*.log
+*.prof
+plan.md
+
+# Coverage and test caches
+.coverage
+htmlcov/
+.pytest_cache/
+
+# mypy / pyright caches
+.mypy_cache/
+pyrightconfig.json
+
+# local needed python files
+tests.py
