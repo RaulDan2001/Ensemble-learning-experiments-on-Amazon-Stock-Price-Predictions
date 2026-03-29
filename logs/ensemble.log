@@ -1,0 +1,20 @@
+Training SmallMLP (5 epochs)...
+  Epoch   1/5  train_MSE: 0.002992  val_MSE: 0.021299  (no_improve: 0/10)
+  SmallMLP: test MSE=177.3662 USD²  MAE=10.0716 USD
+
+Training DeepMLP (5 epochs)...
+  Epoch   1/5  train_MSE: 0.001143  val_MSE: 0.010149  (no_improve: 0/10)
+  DeepMLP: test MSE=356.0059 USD²  MAE=16.1428 USD
+
+Weights (must sum to 1): [0.6805 0.3195]  sum=1.0000
+
+──────────────────────────────────────────────────
+  Ensemble Smoke Test
+──────────────────────────────────────────────────
+  Model                    MSE         MAE
+  ──────────────  ────────────  ──────────
+  Mean Ensemble        88.6781      7.3803
+  Weighted Ens.        79.6334      6.6044
+──────────────────────────────────────────────────
+
+ensemple.py smoke test passed.

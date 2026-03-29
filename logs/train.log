@@ -1,0 +1,6 @@
+Smoke-testing training loop with: SmallMLP
+  Epoch   1/3  train_MSE: 0.002992  val_MSE: 0.021299  (no_improve: 0/10)
+
+Train losses : [0.002992, 0.001374, 0.001245]
+Val   losses : [0.021299, 0.02597, 0.012755]
+Smoke test passed.

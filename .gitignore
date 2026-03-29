@@ -37,7 +37,6 @@ Thumbs.db
 desktop.ini
 
 # Logs and profiling
-*.log
 *.prof
 plan.md
 

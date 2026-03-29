@@ -1,0 +1,7 @@
+Total raw rows  : 7202
+Total sequences :   7172  shape: (7172, 30, 8)
+Train           :   5731  -> SubsetA: 2865, SubsetB: 2866
+Val             :    720
+Test            :    721
+
+Batch shapes -> X: torch.Size([32, 30, 8]), y: torch.Size([32, 1])

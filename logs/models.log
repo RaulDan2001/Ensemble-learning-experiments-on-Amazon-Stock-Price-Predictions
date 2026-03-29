@@ -1,0 +1,5 @@
+SmallMLP      output: torch.Size([4, 1])  params: 17,537
+DeepMLP       output: torch.Size([4, 1])  params: 41,217
+LSTM          output: torch.Size([4, 1])  params: 19,009
+GRU           output: torch.Size([4, 1])  params: 14,273
+BiLSTM        output: torch.Size([4, 1])  params: 38,017
